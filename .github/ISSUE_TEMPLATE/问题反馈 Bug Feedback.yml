@@ -40,7 +40,7 @@ body:
   - type: textarea
     attributes:
       label: 相关截图或日志 (Relevant Screenshots or Logs)
-      description: 如果有的话，请提供相关的截图、错误日志或其他有助于解决问题的信息。 (If available, please provide relevant screenshots, error logs, or other information that may help resolve the issue.)
+      description: 请提供相关的截图、错误日志（网页面板/调试 中可导出logcat）或其他有助于解决问题的信息。 (Please provide relevant screenshots, error logs, or other information that may help resolve the issue.)
       placeholder: 相关截图或日志 (Relevant Screenshots or Logs)
     validations:
-      required: false
+      required: true
